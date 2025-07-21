@@ -180,9 +180,119 @@ main {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     transform: scale(1.1);
-}   
+}
+/* Products Section */
+.product-section{
+    padding: 40px 20px;
+    margin-top: 100px;
+}
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin-bottom: 40px;
+}
+.product-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.product-card {
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.product-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3A3A3A;
+    margin-bottom: 10px;
+}
+.product-price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
 
+}
+.product-rating {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FB8200;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.rating-count {
+    font-size: 14px;
+    font-weight: 600;
+    color: #6B7280;
+    margin-left: 5px;
+}
+.product-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6B7280;
+    margin-bottom: 10px;
+}
 
+.btn-see-more{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* featured products section style */
+.featured-products-section{
+    padding: 40px 20px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.feature-products-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-products-image img{
+    width: 100%;
+    height: auto;
+}
+.feature-products-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.featured-products-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin-bottom: 20px;
+}
+.featured-products-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B7280;
+    margin-bottom: 20px;
+}
 
 
 
